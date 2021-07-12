@@ -1,0 +1,19 @@
+{
+  "name": "my-team-page",
+  "version": "1.0.0",
+  "description": "<!-- Please update value in the {}  -->",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HassanDevWork/My-team-page-Challange.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HassanDevWork/My-team-page-Challange/issues"
+  },
+  "homepage": "https://github.com/HassanDevWork/My-team-page-Challange#readme"
+}
