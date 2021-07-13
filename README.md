@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://blissful-neumann-e6c300.netlify.app">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/HassanDevWork/My-team-page-Challange/tree/main">
       Solution
     </a>
     <span> | </span>
@@ -38,7 +38,7 @@
 ![screenshot1](https://i.ibb.co/7Yk27SD/s.png)
 ![screenshot2](https://i.ibb.co/TL24pKN/ss.png)
 
-You can see the demo on this link : link , in this project I got batter understading for Grid and Flex in Css and I learn new Css attributes to controle the text and images.
+You can see the demo on this link : https://blissful-neumann-e6c300.netlify.app , in this project I got batter understading for Grid and Flex in Css and I learn new Css attributes to controle the text and images.
 
 ### Built With
 
