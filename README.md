@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/HassanDevWork/My-team-page-Challange/tree/main">
+    <a href="https://github.com/HassanDevWork/My-team-page-Challange/">
       Solution
     </a>
     <span> | </span>
@@ -35,7 +35,7 @@
 
 ## Overview
 
-![screenshot1](https://i.ibb.co/7Yk27SD/s.png)
+![screenshot](https://i.ibb.co/7Yk27SD/s.png)
 ![screenshot2](https://i.ibb.co/TL24pKN/ss.png)
 
 You can see the demo on this link : https://blissful-neumann-e6c300.netlify.app , in this project I got batter understading for Grid and Flex in Css and I learn new Css attributes to controle the text and images.
