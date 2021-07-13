@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/HassanDevWork/My-team-page-Challange/tree/main">
+    <a href="https://github.com/HassanDevWork/My-team-page-Challange/">
       Solution
     </a>
     <span> | </span>
