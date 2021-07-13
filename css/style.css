@@ -144,6 +144,10 @@ figure img {
   margin-left: 10px;
 }
 
+.details-img{
+  height: 400px;
+}
+
 .details-img img {
   object-fit: fill;
 }
@@ -181,7 +185,7 @@ figure img {
   .details {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 50% 0fr;
+    grid-template-rows: auto auto;
   }
 }
 
