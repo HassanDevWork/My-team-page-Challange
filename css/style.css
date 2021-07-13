@@ -1,0 +1,204 @@
+body {
+  padding: 40px 0;
+}
+
+figure {
+  margin: 0;
+}
+
+figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+/* ================================ Header ================================ */
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  column-gap: 20px;
+
+  padding: 10px 0;
+}
+
+.row {
+  max-width: 1024px;
+  width: 1024px;
+}
+
+.page-title {
+  font-family: "PT Serif", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -0.045em;
+
+  color: #000000;
+}
+
+@media screen and (max-width: 872px) {
+  .header {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    row-gap: 10px;
+  }
+}
+
+/* ---------------------------- Description ---------------------------- */
+
+.description-title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.description-text {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+
+  color: #000000;
+}
+
+/* ================================ Team ================================*/
+
+.card {
+  width: 31%;
+  margin: 10px;
+}
+
+.down::before {
+  display: block;
+  content: "";
+  height: 75px;
+}
+
+.member {
+  display: grid;
+  grid-template-columns: auto min-content;
+  grid-template-rows: auto auto;
+  height: 100%;
+
+  text-decoration: none;
+}
+
+.member-jop {
+  font-family: "PT Serif", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #000000;
+
+  writing-mode: vertical-lr;
+  margin-left: 2px;
+}
+
+.member-name {
+  font-family: "PT Serif", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+@media screen and (max-width: 872px) {
+}
+
+/* ================================ Details ================================*/
+
+.details {
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+}
+
+.details-content {
+  margin-left: 10px;
+}
+
+.details-img img {
+  object-fit: fill;
+}
+
+.details-name {
+  font-family: "PT Serif", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.045em;
+  color: #000000;
+}
+
+.details-jop {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.details-text {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+
+@media screen and (max-width: 872px) {
+  .details {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50% 0fr;
+  }
+}
+
+footer {
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+  text-transform: capitalize;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #bdbdbd;
+}
